@@ -6,3 +6,6 @@ node_modules/
 
 # lock file
 *.lock
+
+# generated static output file
+out/
