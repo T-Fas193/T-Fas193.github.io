@@ -1,0 +1,8 @@
+# node modules
+node_modules/
+
+# next js template
+.next/
+
+# lock file
+*.lock
