@@ -1,15 +1,14 @@
-language: node_js 
+language: node_js
 node_js:
   - 15
 cache:
   directories:
-  - node_modules 
+  - node_modules
 script:
-  - npm run build 
-  - touch public/.nojekyll
+  - npm run build
 deploy:
   provider: pages 
-  skip_cleanup: true 
+  skip_cleanup: true
   github_token: $GH_TOKEN
   local_dir: public
   on:
