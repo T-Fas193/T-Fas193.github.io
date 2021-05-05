@@ -9,3 +9,12 @@ node_modules/
 
 # generated static output file
 public/
+
+# auto generated db.json
+db.json
+
+# auto generated package-lock.json
+package-lock.json
+
+# idea project file
+.idea/
